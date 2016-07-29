@@ -1,0 +1,23 @@
+{
+  "name": "json-stringify-plus",
+  "version": "0.1.0",
+  "description": "Convert your JSON objects to a JSON string with single or double quotes.",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint && ava"
+  },
+  "author": "Vu Tran <vu@vu-tran.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vutran/json-stringify-plus.git"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "eslint": "^3.1.1",
+    "eslint-config-airbnb-base": "^5.0.0",
+    "eslint-plugin-import": "^1.12.0"
+  }
+}
